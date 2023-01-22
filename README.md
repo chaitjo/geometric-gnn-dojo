@@ -17,14 +17,12 @@ The `/experiments` directory contains notebooks with synthetic experiments to hi
 - `rotsym.ipynb`: Rotationally symmetric structures, which test a layer's ability to **identify neighbourhood orientation** and highlight the utility of higher order tensors in equivariant GNNs.
 - `incompleteness.ipynb`: Counterexamples from [Pozdnyakov et al.](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.125.166001), which test a layer's ability to create **distinguishing fingerprints for local neighbourhoods** and highlight the need for higher order scalarisation.
 
-<!-- ![Axes of geometric GNN expressivity](https://www.chaitjo.com/publication/joshi-2022-expressive/geometric-gnn-axes.png) -->
+<figure><center><img src="experiments/fig/axes-of-expressivity.png" width="70%"></center></figure>
 
-<figure><center><img src="https://www.chaitjo.com/publication/joshi-2022-expressive/geometric-gnn-axes.png" width="70%"></center></figure>
-
-Check out the accompanying paper ['On the Expressive Power of Geometric Graph Neural Networks'](https://www.chaitjo.com/publication/joshi-2022-expressive/), which characterises the expressive power and theoretical limitations of geometric GNNs through the lens of geometric graph isomorphism.
+Check out the accompanying paper ['On the Expressive Power of Geometric Graph Neural Networks'](https://www.chaitjo.com/publication/joshi-2022-expressive/), which studies the expressivity and theoretical limits of geometric GNNs.
 > Chaitanya K. Joshi*, Cristian Bodnar*, Simon V. Mathis, Taco Cohen, and Pietro Liò. On the Expressive Power of Geometric Graph Neural Networks. *NeurIPS 2022 Workshop on Symmetry and Geometry in Neural Representations.*
 >
->[PDF]() | [Slides](https://www.chaitjo.com/publication/joshi-2022-expressive/Geometric_GNNs_Slides.pdf) | [Video](https://youtu.be/VKj5wzZsoK4)
+>[PDF](https://www.chaitjo.com/publication/joshi-2022-expressive/Geometric_WL_preprint.pdf) | [Slides](https://www.chaitjo.com/publication/joshi-2022-expressive/Geometric_GNNs_Slides.pdf) | [Video](https://youtu.be/VKj5wzZsoK4)
 
 
 
