@@ -1,6 +1,11 @@
 # ⚔️ Geometric GNN Dojo
 
-*The Geometric GNN Dojo* is a pedagogical resource for beginners and experts to explore the design space of **Graph Neural Networks for geometric graphs**.
+*Geometric GNN Dojo* is a pedagogical resource for beginners and experts to explore the design space of **Graph Neural Networks for geometric graphs**.
+
+Check out the accompanying paper ['On the Expressive Power of Geometric Graph Neural Networks'](https://www.chaitjo.com/publication/joshi-2022-expressive/), which studies the expressivity and theoretical limits of geometric GNNs.
+> Chaitanya K. Joshi*, Cristian Bodnar*, Simon V. Mathis, Taco Cohen, and Pietro Liò. On the Expressive Power of Geometric Graph Neural Networks. *NeurIPS 2022 Workshop on Symmetry and Geometry in Neural Representations.*
+>
+>[PDF](https://www.chaitjo.com/publication/joshi-2022-expressive/Geometric_WL_preprint.pdf) | [Slides](https://www.chaitjo.com/publication/joshi-2022-expressive/Geometric_GNNs_Slides.pdf) | [Video](https://youtu.be/VKj5wzZsoK4)
 
 ## Architectures
 
@@ -10,19 +15,14 @@ The `/src` directory provides unified implementations of several popular geometr
 - Equivariant GNNs using spherical tensors: [Tensor Field Network](https://arxiv.org/abs/1802.08219), [MACE](http://arxiv.org/abs/2206.07697)
 - 🔥 Your new geometric GNN architecture?
 
+<figure><center><img src="experiments/fig/axes-of-expressivity.png" width="70%"></center></figure>
+
 ## Experiments
 
 The `/experiments` directory contains notebooks with synthetic experiments to highlight practical challenges in building powerful geometric GNNs:
 - `kchains.ipynb`: Distinguishing k-chains, which test a model's ability to **propagate geometric information** non-locally and demonstrate oversquashing with increased depth.
 - `rotsym.ipynb`: Rotationally symmetric structures, which test a layer's ability to **identify neighbourhood orientation** and highlight the utility of higher order tensors in equivariant GNNs.
 - `incompleteness.ipynb`: Counterexamples from [Pozdnyakov et al.](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.125.166001), which test a layer's ability to create **distinguishing fingerprints for local neighbourhoods** and highlight the need for higher order scalarisation.
-
-<figure><center><img src="experiments/fig/axes-of-expressivity.png" width="70%"></center></figure>
-
-Check out the accompanying paper ['On the Expressive Power of Geometric Graph Neural Networks'](https://www.chaitjo.com/publication/joshi-2022-expressive/), which studies the expressivity and theoretical limits of geometric GNNs.
-> Chaitanya K. Joshi*, Cristian Bodnar*, Simon V. Mathis, Taco Cohen, and Pietro Liò. On the Expressive Power of Geometric Graph Neural Networks. *NeurIPS 2022 Workshop on Symmetry and Geometry in Neural Representations.*
->
->[PDF](https://www.chaitjo.com/publication/joshi-2022-expressive/Geometric_WL_preprint.pdf) | [Slides](https://www.chaitjo.com/publication/joshi-2022-expressive/Geometric_GNNs_Slides.pdf) | [Video](https://youtu.be/VKj5wzZsoK4)
 
 
 
