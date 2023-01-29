@@ -7,6 +7,8 @@ Check out the accompanying paper ['On the Expressive Power of Geometric Graph Ne
 >
 >[PDF](https://www.chaitjo.com/publication/joshi-2022-expressive/Geometric_WL_preprint.pdf) | [Slides](https://www.chaitjo.com/publication/joshi-2022-expressive/Geometric_GNNs_Slides.pdf) | [Video](https://youtu.be/VKj5wzZsoK4)
 
+❓**New to geometric GNNs:** try our practical notebook on [*Geometric GNNs 101*](geometric_gnn_101.ipynb), prepared for MPhil students at the University of Cambridge.
+
 ## Architectures
 
 The `/src` directory provides unified implementations of several popular geometric GNN architectures:
@@ -31,6 +33,7 @@ The `/experiments` directory contains notebooks with synthetic experiments to hi
 ```bash
 # Create new conda environment
 conda create -n pyg python=3.8
+conda activate pyg
 
 # Install PyTorch (Check CUDA version!)
 conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.3 -c pytorch
@@ -52,6 +55,8 @@ conda install jupyterlab -c conda-forge
 ```
 .
 ├── README.md
+|
+├── geometric_gnn_101.ipynb             # A gentle introduction to Geometric GNNs
 | 
 ├── experiments                         # Synthetic experiments
 │   ├── incompleteness.ipynb            # Experiment on counterexamples from Pozdnyakov et al.
