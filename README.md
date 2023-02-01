@@ -73,6 +73,11 @@ conda install jupyterlab -c conda-forge
 ```
 
 
+## Contact
+
+Authors: Chaitanya K. Joshi (chaitanya.joshi@cl.cam.ac.uk), Simon V. Mathis (simon.mathis@cl.cam.ac.uk). 
+We welcome your questions and feedback via email or GitHub Issues.
+
 
 ## Citation
 
