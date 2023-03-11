@@ -45,7 +45,7 @@ conda activate ./env
 conda install pytorch==1.12.0 -c pytorch
 #
 # Option 2: GPU, CUDA 11.3
-# conda install pytorch==1.12.1 cudatoolkit=11.3 -c pytorch
+# conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.3 -c pytorch
 
 # Install dependencies
 conda install matplotlib pandas networkx
