@@ -1,6 +1,6 @@
 import time
 import random
-from tqdm import tqdm
+from tqdm.autonotebook import tqdm  # from tqdm import tqdm
 import numpy as np
 from sklearn.metrics import accuracy_score
 
