@@ -5,11 +5,12 @@ from torch_scatter import scatter
 
 
 class EGNNLayer(MessagePassing):
-    def __init__(self, emb_dim, activation="relu", norm="layer", aggr="add"):
-        """E(n) Equivariant GNN Layer
+    """E(n) Equivariant GNN Layer
 
-        Paper: E(n) Equivariant Graph Neural Networks, Satorras et al.
-        
+    Paper: E(n) Equivariant Graph Neural Networks, Satorras et al.
+    """
+    def __init__(self, emb_dim, activation="relu", norm="layer", aggr="add"):
+        """
         Args:
             emb_dim: (int) - hidden dimension `d`
             activation: (str) - non-linearity within MLPs (swish/relu)
@@ -65,7 +66,9 @@ class EGNNLayer(MessagePassing):
         msg = torch.cat([h_i, h_j, dists], dim=-1)
         msg = self.mlp_msg(msg)
         # Scale magnitude of displacement vector
-        pos_diff = pos_diff * self.mlp_pos(msg)  # torch.clamp(updates, min=-100, max=100)
+        pos_diff = pos_diff * self.mlp_pos(msg)
+        # NOTE: some papers divide pos_diff by (dists + 1) to stabilise model.
+        # NOTE: lucidrains clamps pos_diff between some [-n, +n], also for stability.
         return msg, pos_diff
 
     def aggregate(self, inputs, index):
