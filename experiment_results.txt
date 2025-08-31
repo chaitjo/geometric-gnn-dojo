@@ -1,0 +1,176 @@
+PyTorch version 2.8.0+cu128
+PyG version 2.6.1
+e3nn version 0.5.6
+Using device: cpu
+
+Number of layers: 2
+Running experiment for TFNModel (cpu).
+Running experiment for TFNModel.
+Total parameters: 17904386
+
+Start training:
+Epoch: 010, LR: 0.00010, Loss: 0.72633, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 020, LR: 0.00010, Loss: 0.70273, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 030, LR: 0.00009, Loss: 0.71024, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 040, LR: 0.00009, Loss: 0.70986, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 050, LR: 0.00009, Loss: 0.71635, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 060, LR: 0.00008, Loss: 0.70385, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 070, LR: 0.00008, Loss: 0.69981, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 080, LR: 0.00007, Loss: 0.70668, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 090, LR: 0.00007, Loss: 0.70926, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 100, LR: 0.00007, Loss: 0.70841, Val Acc: 50.000, Test Acc: 50.000
+
+Done! Training took 37.87s. Best validation accuracy: 50.000, corresponding test accuracy: 50.000.
+Running experiment for TFNModel.
+Total parameters: 17904386
+
+Start training:
+Epoch: 010, LR: 0.00010, Loss: 0.72885, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 020, LR: 0.00010, Loss: 0.71484, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 030, LR: 0.00009, Loss: 0.71311, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 040, LR: 0.00009, Loss: 0.71274, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 050, LR: 0.00009, Loss: 0.71360, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 060, LR: 0.00008, Loss: 0.71019, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 070, LR: 0.00008, Loss: 0.70637, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 080, LR: 0.00007, Loss: 0.70357, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 090, LR: 0.00007, Loss: 0.70118, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 100, LR: 0.00007, Loss: 0.70617, Val Acc: 50.000, Test Acc: 50.000
+
+Done! Training took 28.14s. Best validation accuracy: 50.000, corresponding test accuracy: 50.000.
+Running experiment for TFNModel.
+Total parameters: 17904386
+
+Start training:
+Epoch: 010, LR: 0.00010, Loss: 0.70347, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 020, LR: 0.00010, Loss: 0.70998, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 030, LR: 0.00009, Loss: 0.70204, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 040, LR: 0.00009, Loss: 0.70616, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 050, LR: 0.00009, Loss: 0.70539, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 060, LR: 0.00008, Loss: 0.70746, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 070, LR: 0.00008, Loss: 0.70493, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 080, LR: 0.00007, Loss: 0.70657, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 090, LR: 0.00007, Loss: 0.70106, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 100, LR: 0.00007, Loss: 0.70619, Val Acc: 50.000, Test Acc: 50.000
+
+Done! Training took 28.28s. Best validation accuracy: 50.000, corresponding test accuracy: 50.000.
+Running experiment for TFNModel.
+Total parameters: 17904386
+
+Start training:
+Epoch: 010, LR: 0.00010, Loss: 0.72219, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 020, LR: 0.00010, Loss: 0.70883, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 030, LR: 0.00009, Loss: 0.70673, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 040, LR: 0.00009, Loss: 0.70603, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 050, LR: 0.00009, Loss: 0.70821, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 060, LR: 0.00008, Loss: 0.70450, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 070, LR: 0.00008, Loss: 0.70546, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 080, LR: 0.00007, Loss: 0.70664, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 090, LR: 0.00007, Loss: 0.70189, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 100, LR: 0.00007, Loss: 0.70953, Val Acc: 50.000, Test Acc: 50.000
+
+Done! Training took 30.25s. Best validation accuracy: 50.000, corresponding test accuracy: 50.000.
+Running experiment for TFNModel.
+Total parameters: 17904386
+
+Start training:
+Epoch: 010, LR: 0.00010, Loss: 0.70776, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 020, LR: 0.00010, Loss: 0.69879, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 030, LR: 0.00009, Loss: 0.70471, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 040, LR: 0.00009, Loss: 0.70220, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 050, LR: 0.00009, Loss: 0.70588, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 060, LR: 0.00008, Loss: 0.70586, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 070, LR: 0.00008, Loss: 0.70158, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 080, LR: 0.00007, Loss: 0.69924, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 090, LR: 0.00007, Loss: 0.70486, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 100, LR: 0.00007, Loss: 0.70345, Val Acc: 50.000, Test Acc: 50.000
+
+Done! Training took 28.52s. Best validation accuracy: 50.000, corresponding test accuracy: 50.000.
+Running experiment for TFNModel.
+Total parameters: 17904386
+
+Start training:
+Epoch: 010, LR: 0.00010, Loss: 0.70291, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 020, LR: 0.00010, Loss: 0.70441, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 030, LR: 0.00009, Loss: 0.70376, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 040, LR: 0.00009, Loss: 0.70816, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 050, LR: 0.00009, Loss: 0.70152, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 060, LR: 0.00008, Loss: 0.70500, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 070, LR: 0.00008, Loss: 0.70924, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 080, LR: 0.00007, Loss: 0.70367, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 090, LR: 0.00007, Loss: 0.70256, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 100, LR: 0.00007, Loss: 0.70387, Val Acc: 50.000, Test Acc: 50.000
+
+Done! Training took 28.20s. Best validation accuracy: 50.000, corresponding test accuracy: 50.000.
+Running experiment for TFNModel.
+Total parameters: 17904386
+
+Start training:
+Epoch: 010, LR: 0.00010, Loss: 0.71081, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 020, LR: 0.00010, Loss: 0.70770, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 030, LR: 0.00009, Loss: 0.70315, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 040, LR: 0.00009, Loss: 0.70358, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 050, LR: 0.00009, Loss: 0.69717, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 060, LR: 0.00008, Loss: 0.69631, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 070, LR: 0.00008, Loss: 0.70187, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 080, LR: 0.00007, Loss: 0.69976, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 090, LR: 0.00007, Loss: 0.69884, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 100, LR: 0.00007, Loss: 0.70020, Val Acc: 50.000, Test Acc: 50.000
+
+Done! Training took 28.64s. Best validation accuracy: 50.000, corresponding test accuracy: 50.000.
+Running experiment for TFNModel.
+Total parameters: 17904386
+
+Start training:
+Epoch: 010, LR: 0.00010, Loss: 0.71306, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 020, LR: 0.00010, Loss: 0.70367, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 030, LR: 0.00009, Loss: 0.70614, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 040, LR: 0.00009, Loss: 0.70810, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 050, LR: 0.00009, Loss: 0.71317, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 060, LR: 0.00008, Loss: 0.70372, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 070, LR: 0.00008, Loss: 0.70388, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 080, LR: 0.00007, Loss: 0.70100, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 090, LR: 0.00007, Loss: 0.70209, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 100, LR: 0.00007, Loss: 0.70328, Val Acc: 50.000, Test Acc: 50.000
+
+Done! Training took 28.22s. Best validation accuracy: 50.000, corresponding test accuracy: 50.000.
+Running experiment for TFNModel.
+Total parameters: 17904386
+
+Start training:
+Epoch: 010, LR: 0.00010, Loss: 0.71660, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 020, LR: 0.00010, Loss: 0.70009, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 030, LR: 0.00009, Loss: 0.70581, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 040, LR: 0.00009, Loss: 0.70444, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 050, LR: 0.00009, Loss: 0.69946, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 060, LR: 0.00008, Loss: 0.70290, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 070, LR: 0.00008, Loss: 0.70006, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 080, LR: 0.00007, Loss: 0.70351, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 090, LR: 0.00007, Loss: 0.70272, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 100, LR: 0.00007, Loss: 0.70444, Val Acc: 50.000, Test Acc: 50.000
+
+Done! Training took 28.21s. Best validation accuracy: 50.000, corresponding test accuracy: 50.000.
+Running experiment for TFNModel.
+Total parameters: 17904386
+
+Start training:
+Epoch: 010, LR: 0.00010, Loss: 0.70373, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 020, LR: 0.00010, Loss: 0.70689, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 030, LR: 0.00009, Loss: 0.69828, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 040, LR: 0.00009, Loss: 0.70121, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 050, LR: 0.00009, Loss: 0.70371, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 060, LR: 0.00008, Loss: 0.70480, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 070, LR: 0.00008, Loss: 0.70155, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 080, LR: 0.00007, Loss: 0.69971, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 090, LR: 0.00007, Loss: 0.70050, Val Acc: 50.000, Test Acc: 50.000
+Epoch: 100, LR: 0.00007, Loss: 0.69716, Val Acc: 50.000, Test Acc: 50.000
+
+Done! Training took 28.17s. Best validation accuracy: 50.000, corresponding test accuracy: 50.000.
+
+Done! Averaged over 10 runs:
+ - Training time: 29.45s ± 2.87.
+ - Best validation accuracy: 50.000 ± 0.000.
+- Test accuracy: 50.0 ± 0.0.
+
+
+Number of layers: 3
+Running experiment for TFNModel (cpu).
